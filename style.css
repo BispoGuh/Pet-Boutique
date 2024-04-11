@@ -1,0 +1,300 @@
+/* ESTILO GERAL */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+
+.destaque {
+	 font-weight: 700;
+     font-style: italic;
+}
+
+/* CONTAINER UM */
+
+.container-um {
+	width: 100%;
+	padding: 83px 80px;
+	background-image: url("./img/banner-topo.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.container-um-logo {
+	max-width: 250px;
+}
+
+.container-um-logo .nome-pet-shop {
+	font-size: 35px;
+	margin: 0 0 5px 0;
+	color: #3c184e;
+}
+
+.container-um-logo .nome-pet-shop img {
+	width: 30px;
+	margin-right: 5px;
+}
+
+.container-um-logo .slogan-pet-shop {
+	font-size: 14px;
+	text-align: center;
+	margin: 0;
+	color: #3c184e;
+}
+
+.container-um-titulo {
+	max-width: 1024px;
+	padding: 40px;
+	margin: 70px auto 0;
+	background-color:  #ffffffc4;
+	border-radius: 10px;
+	box-shadow: 0 8px 32px #1f26875e;
+}
+
+.container-um-titulo .titulo {
+	font-size: 60px;
+	text-align: center;
+	font-weight: 800;
+	margin: 0 0 40px;
+	color: #3c184e;
+}
+
+.container-um-titulo .link-fale-conosco {
+	width: 200px;
+	padding: 10px 25px;
+	margin: 0 auto;
+	font-size: 20px;
+	text-align: center;
+	background-color:  #3c184e;
+	border-radius: 10px;
+}
+
+.container-um-titulo .link-fale-conosco a {
+	color: #fff;
+}
+
+.container-um-titulo .link-fale-conosco img {
+	width: 20px;
+}
+
+/* CONTAINER DOIS */
+
+.container-dois {
+	width: 100%;
+	padding: 83px 80px;
+}
+
+.container-dois-titulo h3 {
+	font-size: 36px;
+	color: #3c184e;
+	text-align: center;
+	margin: 0 0 45px 0;
+}
+
+.container-dois-servicos {
+	max-width: 800px;
+	margin: 0 auto 50px;
+	color: #3c184e;
+}
+
+.container-dois-servicos ul li {
+	font-size: 20px;
+	margin: 0 0 20px 0 ;
+}
+
+.container-dois-fotos {
+	max-width: 800px;
+	margin: 0 auto 0;
+	align-items: center;
+}
+
+.container-dois-fotos img {
+	border-radius: 5px;
+	box-shadow: 3px 6px 10px 6px #0000005c;
+}
+
+/* CONTAINER TRES */
+
+.container-tres {
+	padding: 83px 80px;
+	background-color: #3c184e;
+	text-align: center;
+}
+
+.container-tres-txt p {
+	max-width: 800px;
+	margin: 0 auto 50px;
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+}
+
+.container-tres-redes-sociais a img {
+	margin: 0 20px;
+	height: 50px;
+	width: 50px;
+}
+
+/* CONTAINER QUATRO */
+
+.container-quatro {
+	width: 100%;
+	padding: 83px 80px;
+}
+
+.container-quatro-txt p {
+	font-size: 36px;
+	color: #3c184e;
+	text-align: center;
+	margin: 0 0 45px 0;
+}
+
+.container-quatro-marcas {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.container-quatro-marcas .logo-marca {
+	height: 148px;
+	width: 148px;
+	margin: 0 15px;
+}
+
+/* CONTAINER CINCO */
+
+.container-cinco {
+	padding: 83px 80px;
+	background-color: #3c184e;
+	text-align: center;
+}
+
+.container-cinco-txt p {
+	max-width: 800px;
+	margin: 0 auto 50px;
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+}
+
+.container-cinco-redes-sociais a img {
+	margin: 0 20px;
+	height: 50px;
+	width: 50px;
+}
+
+/* CONTAINER SEIS */
+
+.container-seis {
+	width: 100%;
+	padding: 83px 80px;
+	text-align: center;
+}
+
+.container-seis-titulo {
+	font-size: 36px;
+	color: #3c184e;
+	text-align: center;
+	margin: 0 0 45px 0;
+}
+
+.container-seis-txt {
+	font-size: 20px;
+	color: #3c184e;
+	text-align: center;
+	margin: 0 0 45px 0;
+}
+
+.container-seis-mapa iframe {
+	height: 450px;
+	width: 800px;
+}
+
+/* CONTAINER SETE */
+
+.container-sete {
+	max-width: 100%;
+	padding: 10px 0;
+	background-color: #3c184e;
+}
+
+.container-sete-txt {
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	font-weight: 700;
+}
+
+@media screen and (max-width: 1285px){
+	.container-um {
+		padding: 42px 40px;
+	}
+
+	.container-um-titulo {
+		max-width: 1024px;
+		padding: 20px;
+		margin: 70px auto 0;	
+	}
+
+	.container-um-titulo .titulo {
+		font-size: 30px;
+		margin: 0 0 40px;
+	}
+
+	.container-dois {
+		padding: 42px 40px;
+	}
+
+	.container-dois .container-dois-fotos {
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.container-dois .container-dois-fotos img {
+		height: 150px;
+		width: 130px;
+	}
+
+	.container-tres {
+		padding: 42px 40px;
+	}
+
+	.container-quatro {
+		padding: 42px 40px;
+	}
+
+	.container-quatro-txt p {
+		font-size: 25px;
+	}
+
+	.container-quatro-marcas {
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.container-quatro-marcas .logo-marca {
+		height: 60px;
+		width: 60px;
+		margin: 0 2px;
+	}
+
+	.container-cinco {
+		padding: 42px 40px;
+	}
+
+	.container-seis {
+		padding: 42px 40px;
+	}
+
+	.container-seis-mapa {
+		margin: 0 auto;
+	}
+
+	.container-seis-mapa iframe {
+		height: 225px;
+		width: 300px;
+	}
+	
+}
